@@ -1,0 +1,19 @@
+package com.javademo.oops.concepts;
+
+public class Zoo {
+	
+	public static void main(String[] args) {
+		
+		Animal tiger = new Animal("Tiger", 12, 4);
+		Animal cheetah = new Animal("Cheetah", 14, 4);
+		
+		tiger.animalActions();
+		System.out.println();
+		tiger.animalEats();
+		System.out.println();
+		cheetah.animalActions();
+		System.out.println();
+		cheetah.animalEats();
+	}
+
+}

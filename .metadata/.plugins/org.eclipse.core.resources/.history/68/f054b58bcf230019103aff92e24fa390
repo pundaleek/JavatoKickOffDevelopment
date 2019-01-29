@@ -1,0 +1,18 @@
+package com.javademo.oops.concepts;
+
+public class Zoo {
+	
+	public static void main(String[] args) {
+		
+		Bird bird = new Bird("Peacock", 12, 2);
+		bird.animalActions();
+		bird.animalEats();
+		bird.fly();
+		
+		Fish fish = new Fish("Fishy", 4, 12);
+		
+		
+		
+	}
+
+}

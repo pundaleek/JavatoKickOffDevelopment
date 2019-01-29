@@ -1,0 +1,9 @@
+package com.javademo.oops.concepts;
+
+public class Fish {
+	
+	public void swim(){
+		System.out.println("swimming...");
+	}
+
+}

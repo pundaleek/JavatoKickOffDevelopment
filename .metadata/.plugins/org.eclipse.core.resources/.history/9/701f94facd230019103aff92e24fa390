@@ -1,0 +1,9 @@
+package com.javademo.oops.concepts;
+
+public class Bird {
+	
+	public void fly(){
+		System.out.println("flying...");
+	}
+
+}
