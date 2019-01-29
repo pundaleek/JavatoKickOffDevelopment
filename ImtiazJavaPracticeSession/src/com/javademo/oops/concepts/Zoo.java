@@ -10,7 +10,7 @@ public class Zoo {
 		bird.fly();
 		bird.animalRun();
 		
-		Fish fish = new Fish("Fishy", 4, 12);
+		Fish fish = new Fish("Fishy", 42, 12);
 		fish.swim();
 		fish.animalActions();
 		fish.animalEats();
