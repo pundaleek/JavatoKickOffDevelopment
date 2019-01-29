@@ -1,6 +1,6 @@
 package com.javademo.oops.concepts;
 
-public class Animal {
+public abstract class Animal {
 	String animalName;
 	int animalAge;
 	int numberOfLegs;
@@ -25,4 +25,6 @@ public class Animal {
 	public void animalRun(){
 		System.out.println("running...");
 	}
+	
+	public abstract void move();
 }
