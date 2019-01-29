@@ -8,12 +8,13 @@ public class Zoo {
 		bird.animalActions();
 		bird.animalEats();
 		bird.fly();
+		bird.animalRun();
 		
 		Fish fish = new Fish("Fishy", 4, 12);
 		fish.swim();
 		fish.animalActions();
 		fish.animalEats();
+		fish.animalRun();
 
 	}
-
 }

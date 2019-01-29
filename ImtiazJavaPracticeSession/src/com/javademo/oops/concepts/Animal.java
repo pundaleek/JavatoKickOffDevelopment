@@ -21,4 +21,8 @@ public class Animal {
 	public void animalEats(){
 		System.out.println(animalName + " is veg animal");
 	}
+	
+	public void animalRun(){
+		System.out.println("running...");
+	}
 }
