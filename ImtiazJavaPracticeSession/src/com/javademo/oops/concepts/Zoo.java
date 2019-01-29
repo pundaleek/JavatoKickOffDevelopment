@@ -4,17 +4,8 @@ public class Zoo {
 	
 	public static void main(String[] args) {
 		
-		Bird bird = new Bird("Peacock", 12, 2);
-		bird.animalActions();
-		bird.animalEats();
-		bird.fly();
-		bird.animalRun();
-		
-		Fish fish = new Fish("Fishy", 42, 12);
-		fish.swim();
-		fish.animalActions();
-		fish.animalEats();
-		fish.animalRun();
+		Sparrow sp = new Sparrow("sparrow", 3, 3);
+		sp.fly();
 
 	}
 }

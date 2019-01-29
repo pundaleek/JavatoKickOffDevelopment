@@ -6,9 +6,4 @@ public class Bird extends Animal{
 		super(animalName, animalAge, numberOfLegs);
 		
 	}
-
-	public void fly(){
-		System.out.println("flying...");
-	}
-
 }
